@@ -29,8 +29,8 @@
 //const int resFactor = 1;
 
 // Simulation options
-#define CENTRAL_MOMENTS			// Use central moments collision operator (BGK otherwise)
-#define INLET_RAMP 10.0			// Inlet velocity ramp-up
+define CENTRAL_MOMENTS			// Use central moments collision operator (BGK otherwise)
+#define INLET_RAMP 250.0			// Inlet velocity ramp-up
 //#define WOMERSLEY 5.0				// Womersley number for oscillating pressure ßßßgradients
 //#define UNI_EPSILON				// Calculate epsilon over all IBM bodies at once
 #define ORDERED						// For deterministic reduction operations
@@ -43,11 +43,11 @@
 #define TIPS							// Write out tip positions
 
 // Domain setup (lattice)
-const int Nx = 2400 + 128 * 40 + 1;   	// Number of lattice sites in x-direction
-const int Ny = 180 + 1;					// Number of lattice sites in y-direction
+const int Nx = 1920 + 128 * 24 + 1;   	// Number of lattice sites in x-direction
+const int Ny = 144 + 1;					// Number of lattice sites in y-direction
 
 // Domain setup (physical)
-const double height_p = 4.5;			// Domain height (m)
+const double height_p = 3.6;			// Domain height (m)
 const double rho_p = 1;				// Fluid density (kg/m^3)
 const double nu_p = 0.01;//0.00625; //0.01;//0.0025;//0.000015;				// Fluid kinematic viscosity (m^2/s)
 
