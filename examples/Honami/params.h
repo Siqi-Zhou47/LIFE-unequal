@@ -29,8 +29,8 @@
 //const int resFactor = 1;
 
 // Simulation options
-define CENTRAL_MOMENTS			// Use central moments collision operator (BGK otherwise)
-#define INLET_RAMP 250.0			// Inlet velocity ramp-up
+#define CENTRAL_MOMENTS			// Use central moments collision operator (BGK otherwise)
+#define INLET_RAMP 150.0			// Inlet velocity ramp-up
 //#define WOMERSLEY 5.0				// Womersley number for oscillating pressure ßßßgradients
 //#define UNI_EPSILON				// Calculate epsilon over all IBM bodies at once
 #define ORDERED						// For deterministic reduction operations
