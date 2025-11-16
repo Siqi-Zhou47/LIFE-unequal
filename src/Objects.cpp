@@ -685,7 +685,7 @@ void ObjectsClass::geometryReadIn() {
 			double currentLength = baseLength;
 			
 			// === 模式 1: SINUSOIDAL (正弦波) ===
-			double sinAmplitude = 0.5;           // 振幅 (±0.3)
+			double sinAmplitude = 0.2;           // 振幅 (±0.3)
 			double sinWavelength = 8.0;         // 波长 (每10个filament一个周期)
 			
 			// === 模式 2: ALTERNATING (交替) ===
